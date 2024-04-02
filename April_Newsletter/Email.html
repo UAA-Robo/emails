@@ -76,34 +76,53 @@
                                                 <br> <br>
 
                                             </div>
-
-                                        </td>
-                                    </tr>
-                                </table>
-
-                                <!--Coffeebot-->
-                                <table>
-                                    <tr>
-                                        <h3 style="font-weight: 800; font-size: 23px; text-align: left;">CoffeeBot</h3>
-                                    </tr>
-                                    <!-- Content -->
-                                    <tr>
-                                        <td style=" font-size: 15px; text-align: left;">
-                                            CoffeeBot is kicking off in full swing this semester! If any of you are familiar with the team pre-pandemic, we used to compete in the
-                                            Mars Rover Competition where we built a rover that had to complete different challenges in the dessert. We decided to bring one of the old rovers to life by re-using
-                                            its end effector as our new CoffeeBot claw! Be on the lookout for more CoffeeBot updates next month!
+                                            <h3 style=" font-weight: 800; font-size: 23px;  text-align: left;">CoffeeBot</h3>
+                                            <!-- Content -->
+                                            <div style="font-size: 15px; text-align: left;">
+                                            Now that our VEX competition season is done, our CoffeeBot project, started
+                                            last year, is moving into center stage. The parts for our first iteration robot have been
+                                            taking a while to ship, but our programming team has not skipped a beat. Several important
+                                            aspects of operating the bot are being worked on simultaneously. That includes,
+                                            <ul>
+                                                <li>
+                                                    <strong>Communicating with Arduinos through serial.</strong>
+                                                <br>The robot will consist of a "brain", a raspberry pi that controlls overall robot
+                                                    operations, and a number of tiny Arduinos, microcomputers that will control each motor.
+                                                    The brain will communicate with these microcomputers through a USB cable, so the team
+                                                    has been working on streamlining this communication through a serial connection.
+                                                </li>
+                                                <li>
+                                                    <strong>Controlling the robot</strong>
+                                                <br>The auto-serving portion of the robot's programming will have to wait for the
+                                                    fundamentals to be made first. To help with testing, the programming team is
+                                                    working on getting a game controller working to control the robot's motions for
+                                                    now.
+                                                </li>
+                                                <li>
+                                                    <strong>Inverse Kinematics</strong>
+                                                <br>The robot will have a number of joints, all that work together to position the hand at
+                                                    a target location. Ideally, we can tell the robot where to put the hand in 3D space,
+                                                    and it can calculate what angles to position its joints at that achieves this. This is
+                                                    where inverse kinematics come into play. We started this last year, and are finishing
+                                                    it up this semester!
+                                                </li>
+                                                <li>
+                                                    <strong>Simulation!</strong>
+                                                <br>Although the hardware for the robot is on hold, it can't hold testing back!
+                                                    To accommodate the long shipping times, the team has already whipped up a 3D
+                                                    simulation of the arm that has already proven our Inverse Kinematics.
+                                                </li>
+                                            </ul>
+                                            As for the arm itself, we are opting for an open source design that will enable us to
+                                            quickly develop the codebase and build upon other people's ideas. Most of the arm's shell is 3D
+                                            printed, as seen in the picture on the right. The components are still shipping,
+                                            however, so a simulation representing the eventual finished model is shown on the left.
                                             <br><br>
-                                        </td>
-                                        <td align="center">
-                                            <img src="https://i.imgur.com/y6TH4X8.jpg" width="300" height="200" style="border-radius: 6px; margin-right: 16px; object-fit: cover;">
+                                            
+                                            </div>
+
                                         </td>
                                     </tr>
-
-                                    <!-- Spacer -->
-                                    <tr>
-                                        <td style="height: 70px;"></td>
-                                    </tr>
-
                                 </table>
 
                                 <!-- Big Image Section -->
